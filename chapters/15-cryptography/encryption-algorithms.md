@@ -106,7 +106,7 @@
        - Or just copy `~/.ssh/id_rsa.pub` to the server manually.
 - 💡 In RSA crypto, when you generate a key pair, it's completely arbitrary which one you choose to be the public key, and which is the private key.
   - If you encrypt with one, you can decrypt with the other - it works in both directions.
-  - When encrypting, private key is used to decrypt and public key to decrypt
+  - When encrypting, private key is used to decrypt and public key to encrypt
     - "I want to be able to encrypt certain information and use it as a product key for my software."
   - When signing, private key is used to encrypt and public key to decrypt
     - "I want to use my private key to generate messages so only I can possibly be the sender."
